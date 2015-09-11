@@ -1,0 +1,24 @@
+4 Guias:
+
+ * Introduccion
+  * Repaso del modelo: objetos, mensajes, clases, mixins
+  * Modelo vs metamodelo
+  * envio dinamico de mensajes
+  * instanciacion dinamica
+  * varargs
+  * instance_eval
+  * class_eval
+ * Introspection
+  * Conocer los mensajes del objeto
+  * Conocer los atributos
+  * Conocer los metodos de instancia
+  * Conocer los metodos de clase
+  * Conocer la clase padre
+  * observar eventos
+ * Self Modification
+   * crear clases dinamicamente
+   * cambiar jerarquias
+   * definir metodos
+   * clases abiertas
+ * Intercession
+   * modificar el send
