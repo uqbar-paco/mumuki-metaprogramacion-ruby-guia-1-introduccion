@@ -1,7 +1,8 @@
 ---
 tags:
-- pdep
-- pepita
 - objetos
 - basico
+- pepita
+- pdep
 locale: es
+layout: editor_right

@@ -1,13 +1,30 @@
-Conozcamos primero a nuestra [golondrina](http://es.wikipedia.org/wiki/Hirundo_rustica), **Pepita**.
+¿Y cómo definimos nuestros propios objetos? Ruby presenta un modelo de objetos basado en clases: todo objeto es instancia de una clase, por ejemplo:
 
-Y `pepita`, además de ser una golondrina, es un objeto, que como contamos en la introducción, nos ayudará a resolver algunos problemas.
-
-`pepita`, como todo objeto, en algún momento, nace, apareciendo en el mundo de objetos. O, como nos gusta decir en el paradigma de objetos, en algún momento la tenemos que **crear**.
-
-Y lo hacemos de la siguiente forma:
 
 ```ruby
-pepita = Object.new
+class Espadachin
+  def atacar_a(victima)
+    victima.recibir_danio(nivel_ataque)
+  end
+  
+  def nivel_ataque
+    10
+  end
+  
+  def recibir_danio(nivel_danio)
+    @puntos_vida -= nivel_danio
+  end
+end
 ```
 
-> ¡Probalo vos mismo! Escribí el código anterior en el editor.
+
+La cual instanciamos de la siguiente forma:
+
+```ruby
+dartagnan = Espadachin.new
+sanjuro = Espadachin.new
+dartagnan.atacar_a(sanjuro)
+```
+
+> Ahora te toca a vos: declará la clase Muralla, que no puede atacar, pero sí recibir daño: cuando lo hace solamente pierde la mitad del 
+

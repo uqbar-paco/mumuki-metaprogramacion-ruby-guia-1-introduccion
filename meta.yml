@@ -1,6 +1,10 @@
 ---
-name: Metaprogramación Ruby Guía 0
 locale: es
+learning: false
+beta: false
 language: ruby
 original_id_format: '%05d'
-
+order:
+- 100
+- 110
+- 120

@@ -1,13 +1,33 @@
-Conozcamos primero a nuestra [golondrina](http://es.wikipedia.org/wiki/Hirundo_rustica), **Pepita**.
+Primero, lo primero: en el paradigma de objetos trabajamos con.... ¡mensajes! (¡ah, no te la esperabas!). Bueno, sí, y los mensajes se los enviamos a objetos. 
 
-Y `pepita`, además de ser una golondrina, es un objeto, que como contamos en la introducción, nos ayudará a resolver algunos problemas.
-
-`pepita`, como todo objeto, en algún momento, nace, apareciendo en el mundo de objetos. O, como nos gusta decir en el paradigma de objetos, en algún momento la tenemos que **crear**.
-
-Y lo hacemos de la siguiente forma:
+Por ejemplo, a los strings podemos enviarle el mensaje `size`, que nos da su longitud. 
 
 ```ruby
-pepita = Object.new
+"hola mundo".size 
+# => 10
 ```
 
-> ¡Probalo vos mismo! Escribí el código anterior en el editor.
+o `include?`, que nos dice si contiene un substring
+
+```ruby
+"hola mundo".include?("mundo") 
+# => true
+```
+
+A los números podemos enviarle el mensaje `even?`, que nos dice si es par:
+
+```ruby
+105.even? 
+# => false
+```
+
+En general a todos podemos enviarle `to_s`, que lo convierte en string: 
+
+```ruby
+402.odd?.to_s
+# => "false"
+```
+ 
+Y así. 
+
+> Ahora te toca a vos: solamente enviando mensajes, averiguá 

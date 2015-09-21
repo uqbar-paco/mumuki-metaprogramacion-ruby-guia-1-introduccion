@@ -1,0 +1,1 @@
+En Ruby los atributos no se declaran: simplemente se usan, prefijados con un `@`

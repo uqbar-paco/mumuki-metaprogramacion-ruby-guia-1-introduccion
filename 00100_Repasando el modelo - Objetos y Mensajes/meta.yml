@@ -1,7 +1,8 @@
 ---
 tags:
-- pdep
-- pepita
 - objetos
-- basico
+- repaso
+- mensajes
+- metaprogramacion
 locale: es
+layout: editor_bottom
